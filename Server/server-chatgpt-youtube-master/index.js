@@ -14,7 +14,7 @@ app.use(bodyParser.json())
 
 // Configure open api
 const configuration = new Configuration({
-    organization: "org-uM1aT39hF9euZWlmQHR9FfjC",
+    organization: 'org-uM1aT39hF9euZWlmQHR9FfjC',
     apiKey: process.env.API_KEY // VISIT .env AND MAKE CHANGES
 })
 const openai = new OpenAIApi(configuration)
